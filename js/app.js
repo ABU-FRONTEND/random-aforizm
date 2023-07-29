@@ -15,5 +15,5 @@ function fetchData(method, url, slugId) {
    })
 }
 btn.addEventListener('click', ()=>{
-   fetchData('GET', 'https://api.adviceslip.com/advice/', Math.random() * 223)
+   fetchData('GET', 'https://api.adviceslip.com/advice/', Math.floor(Math.random() * 223))
 })
